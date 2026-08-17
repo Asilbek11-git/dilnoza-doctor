@@ -1,0 +1,256 @@
+{
+  "doctor": {
+    "id": "doc-1",
+    "full_name": "Dilnoza Yusupova",
+    "specialty": "Muolaja shifokori",
+    "birth_year": 1986,
+    "experience_years": 20,
+    "bio": "Dilnoza Yusupova — tibbiyot sohasida 20 yildan ortiq professional tajribaga ega shifokor. Uning faoliyatida bemorlarga professional tibbiy muolajalar o‘tkazish, tomchilab dori yuborish (kapelnitsa), v/i va m/o in'yeksiyalar (ukol), umumiy salomatlik holatini nazorat qilish va xavfsiz davolash standartlari muhim o‘rin tutadi.",
+    "photo": "/src/assets/images/dr_dilnoza_exact_1786980527526.jpg",
+    "phone": "+998 91 655 94 99",
+    "email": "dr.dilnoza@salomat.uz",
+    "address": "Farg‘ona viloyati, Toshloq tumani, Navbahor Chaman ko‘chasi 17-uy (Ambulatoriya)",
+    "clinic_name": "Ambulatoriya",
+    "work_hours": "Dushanba – Shanba: 09:00 – 18:00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-17T15:35:00.000Z"
+  },
+  "services": [
+    {
+      "id": "srv-1",
+      "title": "Tomchilab dori yuborish (Kapelnitsa)",
+      "slug": "tomchilab-dori-yuborish-kapelnitsa",
+      "short_description": "Vena ichiga tomchilab dori vositalarini xavfsiz va qulay sharoitda yuborish.",
+      "description": "Shifokor nazorati ostida steril sharoitda infuzion terapiya (kapelnitsa) o'tkazish, bemorning qon bosimi va umumiy holatini nazorat qilish hamda dori vositalarining organizmga to'g'ri so'rilishini ta'minlash.",
+      "icon": "Activity",
+      "duration_minutes": 45,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    },
+    {
+      "id": "srv-2",
+      "title": "In'yeksiya va ukol muolajalari (V/I va M/O)",
+      "slug": "inyeksiya-va-ukol-muolajalari",
+      "short_description": "Vena ichiga (V/I) va muskul orasiga (M/O) og'riqsiz hamda steril ukol qilish.",
+      "description": "Barcha turdagi buyurilgan in'yeksiyalarni (antibiotiklar, vitaminlar, og'riqsizlantiruvchi va quvvatlantiruvchi preparatlar) xalqaro antiseptika qoidalariga qat'iy rioya qilgan holda xavfsiz bajarish.",
+      "icon": "HeartPulse",
+      "duration_minutes": 15,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    },
+    {
+      "id": "srv-3",
+      "title": "Shifokor ko'rigi va muolaja rejasi",
+      "slug": "shifokor-korigi-va-muolaja-rejasi",
+      "short_description": "Bemor holatini baholash, shikoyatlarni o'rganish va individual muolajalar kursini belgilash.",
+      "description": "Bemorning umumiy holatini tekshirish (qon bosimi, puls, tana harorati), dori vositalariga allergik reaksiyalarni aniqlash va xavfsiz muolajalar jadvalini tuzish.",
+      "icon": "Stethoscope",
+      "duration_minutes": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    },
+    {
+      "id": "srv-4",
+      "title": "Qon bosimi va holat monitoringi",
+      "slug": "qon-bosimi-va-holat-monitoringi",
+      "short_description": "Gipertoniya, gipotoniya va quvvatsizlikda tezkor ko'mak va nazorat.",
+      "description": "Qon bosimi keskin ko'tarilganda yoki tushganda tezkor yordam ko'rsatish, holatni barqarorlashtiruvchi muolajalar o'tkazish va dinamik monitoring.",
+      "icon": "ShieldCheck",
+      "duration_minutes": 25,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    },
+    {
+      "id": "srv-5",
+      "title": "Bog'lov va antiseptik ishlov berish",
+      "slug": "boglov-va-antiseptik-ishlov",
+      "short_description": "Kichik jarohatlar, kesilishlar va terini steril tozalash hamda bog'lov qo'yish.",
+      "description": "Yaralarga professional antiseptik ishlov berish, steril bog'lovlarni almashtirish va asoratsiz bitishini nazorat qilish.",
+      "icon": "FileText",
+      "duration_minutes": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    },
+    {
+      "id": "srv-6",
+      "title": "Kompleks ambulator davolash kursi",
+      "slug": "kompleks-ambulator-davolash-kursi",
+      "short_description": "Surunkali kasalliklarni ambulator sharoitda bosqichma-bosqich davolash kursi.",
+      "description": "Shifokor ko'rsatmasi bo'yicha belgilangan 5-10 kunlik davolash muolajalarini muntazam va to'liq hajmda o'tkazish.",
+      "icon": "Apple",
+      "duration_minutes": 40,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2026-08-17T15:35:00.000Z"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "doctor_id": "doc-1",
+      "organization": "Ambulatoriya (Toshloq tumani, Navbahor)",
+      "position": "Muolaja shifokori / Qabul va muolajalar bo'limi",
+      "start_year": 2018,
+      "end_year": null,
+      "description": "Bemorlarga ambulator muolajalar, infuzion terapiya (kapelnitsa), in'yeksiyalar va tibbiy muolajalar o'tkazish hamda umumiy salomatlikni nazorat qilish.",
+      "is_current": true,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "exp-2",
+      "doctor_id": "doc-1",
+      "organization": "Shahar Markaziy Poliklinikasi",
+      "position": "Katta muolaja shifokori",
+      "start_year": 2012,
+      "end_year": 2018,
+      "description": "Muolaja xonasi faoliyatini boshqarish, barcha turdagi in'yeksiyalar va ambulator tibbiy yordam ko'rsatish.",
+      "is_current": false,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "exp-3",
+      "doctor_id": "doc-1",
+      "organization": "Tibbiyot Birlashmasi",
+      "position": "Ambulatoriya shifokori",
+      "start_year": 2006,
+      "end_year": 2012,
+      "description": "Statsionar va ambulator bo'limda bemorlarni davolash va tibbiy muolajalar o'tkazish.",
+      "is_current": false,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "doctor_id": "doc-1",
+      "title": "Oliy toifali shifokor sertifikati",
+      "organization": "O'zbekiston Respublikasi Sog'liqni Saqlash Vazirligi",
+      "year": 2023,
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+      "description": "Tibbiy muolajalar va ambulator davolash bo'yicha oliy toifali mutaxassislik sertifikati.",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cert-2",
+      "doctor_id": "doc-1",
+      "title": "Zamonaviy infuzion terapiya va xavfsiz muolaja amaliyoti",
+      "organization": "Toshkent Vrachlar Malakasini Oshirish Instituti",
+      "year": 2021,
+      "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80",
+      "description": "Xavfsiz in'yeksiya va infuzion terapiya standartlari bo'yicha maxsus kurs.",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cert-3",
+      "doctor_id": "doc-1",
+      "title": "Ambulator tibbiy yordam ko'rsatish simpoziumi diplomi",
+      "organization": "Eurasian Medical Association",
+      "year": 2019,
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80",
+      "description": "Birlamchi tibbiy-sanitariya va ambulator muolajalar bo'yicha xalqaro ilmiy konferensiya.",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cert-4",
+      "doctor_id": "doc-1",
+      "title": "Aseptika, antiseptika va xavfsiz muolajalar",
+      "organization": "Respublika Tibbiyot Markazi",
+      "year": 2017,
+      "image": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+      "description": "Sterillik va infektsiyalar nazorati bo'yicha malaka oshirish sertifikati.",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "title": "Tomchilab dori yuborish (Kapelnitsa): Qoidalari va xavfsizlik talablari",
+      "slug": "tomchilab-dori-yuborish-qoidalari",
+      "category": "Muolaja",
+      "excerpt": "Kapelnitsa muolajasini to'g'ri o'tkazish, sterillik qoidalariga rioya qilish va dori vositalarining nojo'ya ta'sirlarining oldini olish.",
+      "content": "Infuzion terapiya (tomchilab dori yuborish) dori vositalarini bevosita qon oqimiga yetkazib berishning eng samarali usullaridan biridir.\n\n### 1. Kapelnitsa qanday sharoitda o'tkazilishi kerak?\nHar qanday tomchilab dori yuborish muolajasi faqat tajribali tibbiyot xodimi nazorati ostida, to'liq steril sharoitda bajarilishi shart. Uy sharoitida o'zboshimchalik bilan kapelnitsa qilish allergik reaksiyalar va asoratlar xavfini tug'diradi.\n\n### 2. Muolaja jarayonida nimalarga e'tibor beriladi?\n- Dori vositalarining yaroqlilik muddati va tiniqligi tekshiriladi.\n- Bemorning muolajadan oldingi qon bosimi va tomir urishi o'lchanadi.\n- Dori tomish tezligi bemorning holati va preparat turiga qarab aniq sozlanadi.",
+      "image": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
+      "author": "Dilnoza Yusupova",
+      "read_time_minutes": 4,
+      "is_published": true,
+      "published_at": "2026-02-10T10:00:00.000Z",
+      "created_at": "2026-02-10T10:00:00.000Z",
+      "updated_at": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "art-2",
+      "title": "In'yeksiyalarni to'g'ri va og'riqsiz bajarish madaniyati",
+      "slug": "inyeksiyalarni-togri-bajarish",
+      "category": "Muolaja",
+      "excerpt": "Vena ichiga va muskul orasiga ukol qilishda antiseptika va bemor xavfsizligi qoidalari.",
+      "content": "In'yeksiya (ukol) qilish tibbiy muolajalar ichida eng ko'p qo'llaniladigan amaliyotlardan biridir.\n\n### Muhim qoidalar:\n1. Har doim bir martalik steril shprits va ignalardan foydalanish.\n2. In'yeksiya qilinadigan sohani 70% li spirt yoki maxsus antiseptik bilan to'liq zararsizlantirish.\n3. Muskul orasiga ukol qilinganda dori vositasini sekin va bir maromda yuborish.\n\nMuolajalar shifokor ko'rsatmasi asosida aniq dozalarda bajarilishi kerak.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+      "author": "Dilnoza Yusupova",
+      "read_time_minutes": 3,
+      "is_published": true,
+      "published_at": "2026-01-25T14:30:00.000Z",
+      "created_at": "2026-01-25T14:30:00.000Z",
+      "updated_at": "2026-01-25T14:30:00.000Z"
+    }
+  ],
+  "faq": [
+    {
+      "id": "faq-1",
+      "question": "Muolajaga qanday yozilish mumkin?",
+      "answer": "Saytdagi onlayn qabul formasini to‘ldirish orqali yoki ko‘rsatilgan telefon raqami (+998 91 655 94 99) orqali to‘g‘ridan-to‘g‘ri qo‘ng‘iroq qilib qabulga yozilishingiz mumkin. Onlayn buyurtma qoldirganingizdan so‘ng siz bilan tez orada bog‘lanib, vaqtni tasdiqlaymiz.",
+      "category": "Qabul",
+      "order": 1,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "faq-2",
+      "question": "Qanday muolajalar o‘tkaziladi?",
+      "answer": "Ambulatoriyada tomchilab dori yuborish (kapelnitsa), vena ichiga va muskul orasiga ukollar (in'yeksiyalar), qon bosimi va umumiy holatni o'lchash, dori vositalarini yuborish hamda ambulator davolash muolajalari bajariladi.",
+      "category": "Muolajalar",
+      "order": 2,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "faq-3",
+      "question": "Muolajaga kelganda nimalar kerak bo‘ladi?",
+      "answer": "Shifokor tomonidan yozib berilgan davolash varaqasi (retsept yoki ko'rsatma) hamda buyurilgan dori vositalarini olib kelishingiz lozim. Barcha steril shprits, kapelnitsa sistemalari va antiseptik vositalar mavjud.",
+      "category": "Muolajalar",
+      "order": 3,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "faq-4",
+      "question": "Muolaja vaqti qancha davom etadi?",
+      "answer": "In'yeksiyalar (ukol) odatda 10-15 daqiqa, tomchilab dori yuborish (kapelnitsa) esa dori turiga qarab 30 daqiqadan 1 soatgacha davom etishi mumkin.",
+      "category": "Qabul",
+      "order": 4,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1",
+      "name": "Akmal Karimov",
+      "phone": "+998 91 655 94 99",
+      "email": "akmal@example.com",
+      "service_id": "srv-1",
+      "service_title": "Tomchilab dori yuborish (Kapelnitsa)",
+      "preferred_date": "2026-08-20",
+      "message": "Shifokor buyurgan 5 kunlik kapelnitsa muolajasini boshlash kerak.",
+      "status": "CONFIRMED",
+      "admin_notes": "Bemorga 20-avgust soat 10:00 ga muolaja belgilandi.",
+      "created_at": "2026-08-16T11:20:00.000Z",
+      "updated_at": "2026-08-16T14:00:00.000Z"
+    }
+  ]
+}

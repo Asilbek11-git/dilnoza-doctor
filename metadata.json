@@ -1,0 +1,6 @@
+{
+  "name": "Dilnoza Doctor - Medical Doctor Portfolio & Appointment Platform",
+  "description": "Professional medical doctor portfolio and online appointment booking platform for Dr. Dilnoza Yusupova (Muolaja shifokori, 20+ years experience). Features medical procedures, timeline, certificates, health articles, interactive FAQ, real-time Telegram bot booking with accept/reject actions, admin CMS, Swagger API docs, dark modern theme, and multilingual support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
