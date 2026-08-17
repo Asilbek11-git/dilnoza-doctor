@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar.tsx';
 import { Hero } from './components/Hero.tsx';
+import doctorPhoto from './assets/images/dr_dilnoza_exact_1786980527526.jpg';
 import { Statistics } from './components/Statistics.tsx';
 import { AboutDoctor } from './components/AboutDoctor.tsx';
 import { ServicesSection } from './components/ServicesSection.tsx';
@@ -31,7 +32,7 @@ const DEFAULT_DOCTOR: Doctor = {
   birth_year: 1986,
   experience_years: 20,
   bio: "Dilnoza Yusupova — tibbiyot sohasida 20 yildan ortiq professional tajribaga ega shifokor. Uning faoliyatida bemorlarga professional tibbiy muolajalar o‘tkazish, tomchilab dori yuborish (kapelnitsa), v/i va m/o in'yeksiyalar (ukol), umumiy salomatlik holatini nazorat qilish va xavfsiz davolash standartlari muhim o‘rin tutadi.",
-  photo: "/src/assets/images/dr_dilnoza_exact_1786980527526.jpg",
+  photo: doctorPhoto,
   phone: "+998 91 655 94 99",
   email: "dr.dilnoza@salomat.uz",
   address: "Farg‘ona viloyati, Toshloq tumani, Navbahor Chaman ko‘chasi 17-uy (Ambulatoriya)",
